@@ -4937,9 +4937,9 @@ MonoBehaviour:
   textKnight: {fileID: 282139320}
   textRogue: {fileID: 1183949974}
   textWizard: {fileID: 1506543029}
-  ageKnight: {fileID: 0}
-  ageRogue: {fileID: 0}
-  ageWizard: {fileID: 0}
+  ageKnight: {fileID: 1453649406}
+  ageRogue: {fileID: 1178656113}
+  ageWizard: {fileID: 619619951}
   buttonHolder: {fileID: 0}
   buttonPrefab: {fileID: 8071734466213199199, guid: 6a20412270ae16740aa67d73fa8dd246, type: 3}
 --- !u!4 &2137257109

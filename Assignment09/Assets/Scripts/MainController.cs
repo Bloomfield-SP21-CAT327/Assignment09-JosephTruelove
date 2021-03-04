@@ -40,7 +40,9 @@ public class MainController : MonoBehaviour
 
 	public void ShowNewGame()
 	{
-		
+		/*Debug.Log(GameData.current.knight.age.ToString());
+		Debug.Log(GameData.current.rogue.age.ToString());
+		Debug.Log(GameData.current.wizard.age.ToString());*/
 		canvasMainMenu.SetActive(false);
 		canvasLoadGame.SetActive(false);
 		canvasNewGame.SetActive(true);
@@ -48,10 +50,10 @@ public class MainController : MonoBehaviour
 		textKnight.text = GameData.current.knight.name;
 		textRogue.text = GameData.current.rogue.name;
 		textWizard.text = GameData.current.wizard.name;
-		/*ageKnight.text = new string(GameData.current.knight.age);
-		ageRogue.text = GameData.current.rogue.age.ToString();
-		ageWizard.text = GameData.current.wizard.age.ToString();*/
-	}
+        /*ageKnight.text = GameData.current.knight.age.ToString();
+        ageRogue.text = GameData.current.rogue.age.ToString();
+        ageWizard.text = GameData.current.wizard.age.ToString();*/
+    }
 
 	public void QuitGame() { Application.Quit(); }
 
